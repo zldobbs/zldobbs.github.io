@@ -14,17 +14,19 @@ a:hover {
 }
 
 #intro-card h1, h2 {
+  font-family: 'Domine', serif;
   margin: 0 auto;
   text-align: left;
 }
 
 #intro-card h1 {
-  font-size: 24vh;
+  margin: 0 auto;
+  font-size: 18vh;
 }
 
 #intro-card h2 {
-  font-size: 20vh;
-  margin-top: 12vh;
+  font-size: 15vh;
+  margin-top: 20vh;
 }
 
 #profile-card {
@@ -33,14 +35,16 @@ a:hover {
 }
 
 #profile-card p {
+  font-family: 'Heebo', sans-serif;
   font-size: 1.5em;
-  margin: 5% auto;
+  margin: 10% auto;
   width: 80%;
   text-align: left;
 }
 
 #profile-card img {
-  margin: 20vh auto 0 auto;
+  margin: 20% auto 0 auto;
+  padding: 0;
 }
 
 .img-thumbnail {
