@@ -1,9 +1,57 @@
-h1 {
-  font-family: 'Libre Barcode 39 Text', cursive;
-  font-size: 54px;
+a {
+  color: #FF9D17;
 }
 
-p {
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 36px;
+a:hover {
+  color: #FF9400;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+#intro-card h1, h2 {
+  margin: 0 auto;
+  text-align: left;
+}
+
+#intro-card h1 {
+  font-size: 24vh;
+}
+
+#intro-card h2 {
+  font-size: 20vh;
+  margin-top: 12vh;
+}
+
+#profile-card {
+  background-color: #14D788;
+  color: white;
+}
+
+#profile-card p {
+  font-size: 1.5em;
+  margin: 10vh auto;
+  width: 80%;
+  text-align: left;
+}
+
+#profile-card img {
+  margin: 20vh auto 0 auto;
+}
+
+.img-thumbnail {
+  width: 45vh;
+  height: 45vh;
+  border-radius: 50%;
+  border-width: 0;
+  box-shadow: 0 0 10px 2px black;
+}
+
+.big-row {
+  min-height: 100vh;
+  max-height: 100vh;
+  padding: 0;
 }
