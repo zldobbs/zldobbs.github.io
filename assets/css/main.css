@@ -4,13 +4,26 @@ a {
 
 a:hover {
   color: #FF9400;
+  text-decoration: none;
 }
 
 .card {
   height: 100%;
   width: 100%;
-  padding: 0;
+  font-size: 1.5em;
   border-radius: 0;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  /* font-family: 'Heebo', sans-serif; */
+  font-family: 'Domine', serif;
+  border-style: none;
+  overflow: hidden;
+}
+
+#intro-card {
+  padding-top: 25vh;
 }
 
 #intro-card h1, h2 {
@@ -26,36 +39,75 @@ a:hover {
 
 #intro-card h2 {
   font-size: 15vh;
-  margin-top: 20vh;
 }
 
 #profile-card {
   background-color: #14D788;
   color: white;
+  border-left: 1px outset black;
 }
 
 #profile-card p {
-  font-family: 'Heebo', sans-serif;
-  font-size: 1.5em;
   margin: 10% auto;
   width: 80%;
   text-align: left;
 }
 
 #profile-card img {
-  margin: 20% auto 0 auto;
+  width: 45vh;
+  height: 45vh;
+  margin: 0 auto 0 auto;
   padding: 0;
 }
 
+#skills-card1, #skills-card2 {
+  color: white;
+  background-color: #F31655;
+}
+
+#skills-card2 h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
 .img-thumbnail {
-  width: 45vh;
-  height: 45vh;
   border-radius: 50%;
   border-width: 0;
-  box-shadow: 0 0 10px 2px black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  box-shadow: 0 1px 5px 2px black;
+}
+
+.skillset {
+  margin: 0 auto;
+  height: 100%;
+}
+
+.skillset .img-thumbnail {
+  margin: 25% auto 25% auto;
 }
 
 .big-row {
   min-height: 100vh;
   padding: 0;
+}
+
+@media (min-width: 992px) {
+  /* rules for md and up views */
+  .card {
+    border-bottom: 1px outset gray;
+  }
+
+  .big-row .row {
+    /* your boat, gently down the stream... */
+    height: 100%;
+  }
+
+  #skills-card2 h1 {
+    text-align: right;
+  }
+
+  #skills-card2 {
+    padding-left: 5px;
+  }
 }
