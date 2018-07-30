@@ -87,6 +87,21 @@ a:hover {
   margin: 25% auto 25% auto;
 }
 
+.portfolio-card {
+  background-color: #FFAE3F;
+  text-align: center;
+  color: white;
+}
+
+.portfolio-card img {
+  height: 45%;
+  margin: 2.5% auto;
+}
+
+.inner-row .col-sm-12 {
+  max-height: 100vh;
+}
+
 .big-row {
   min-height: 100vh;
   padding: 0;
@@ -109,5 +124,13 @@ a:hover {
 
   #skills-card2 {
     padding-left: 5px;
+  }
+
+  .portfolio-card {
+    max-height: 100vh;
+  }
+
+  .portfolio-card img {
+    height: 40%;
   }
 }
