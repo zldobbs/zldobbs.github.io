@@ -104,7 +104,7 @@ a:hover {
 }
 
 .pf-row .col-sm-12 {
-  max-height: 100vh;
+  min-height: 100vh;
 }
 
 .big-row {
@@ -114,11 +114,16 @@ a:hover {
 
 .pf-item {
   height: 50%;
-  padding: 5%;
-  padding-top: 25%;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
   background-color: #FFAE3F;
   width: 100%;
+}
+
+.pf-img {
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
 }
 
 .pf-item a {
