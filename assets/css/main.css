@@ -88,9 +88,9 @@ a:hover {
 }
 
 .portfolio-card {
-  background-color: #FFAE3F;
+  background-color: black;
   text-align: center;
-  color: white;
+  padding: 0;
 }
 
 .portfolio-card img {
@@ -98,7 +98,12 @@ a:hover {
   margin: 2.5% auto;
 }
 
-.inner-row .col-sm-12 {
+.pf-row .col-md-3 {
+  padding: 0;
+  border-left: 1px outset black;
+}
+
+.pf-row .col-sm-12 {
   max-height: 100vh;
 }
 
@@ -107,13 +112,30 @@ a:hover {
   padding: 0;
 }
 
+.pf-item {
+  height: 50%;
+  padding: 5%;
+  padding-top: 25%;
+  margin: 0 auto;
+  background-color: #FFAE3F;
+  width: 100%;
+}
+
+.pf-item a {
+  color: black;
+}
+
+.pf-item a:hover {
+  color: white;
+}
+
 @media (min-width: 992px) {
   /* rules for md and up views */
   .card {
     border-bottom: 1px outset gray;
   }
 
-  .big-row .row {
+  .inner-row, .pf-row {
     /* your boat, gently down the stream... */
     height: 100%;
   }
