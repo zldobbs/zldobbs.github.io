@@ -65,9 +65,17 @@ a:hover {
   background-color: #F31655;
 }
 
-#skills-card2 h1 {
+#skills-card1 h1 {
+  font-size: 2em;
+}
+
+#skills-card2 h3 {
   font-size: 2em;
   text-align: center;
+}
+
+#skills-card2 {
+  font-size: 1em;
 }
 
 .img-thumbnail {
@@ -93,14 +101,9 @@ a:hover {
   padding: 0;
 }
 
-.portfolio-card img {
-  height: 45%;
-  margin: 2.5% auto;
-}
-
 .pf-row .col-md-3 {
   padding: 0;
-  border-left: 1px outset black;
+  margin: 0;
 }
 
 .pf-row .col-sm-12 {
@@ -124,6 +127,7 @@ a:hover {
   padding: 0;
   margin: 0;
   min-height: 100%;
+  min-width: 100%;
 }
 
 .pf-item a {
@@ -132,6 +136,10 @@ a:hover {
 
 .pf-item a:hover {
   color: white;
+}
+
+#contact-card {
+  padding-top: 20vh;
 }
 
 @media (min-width: 992px) {
@@ -143,10 +151,6 @@ a:hover {
   .inner-row, .pf-row {
     /* your boat, gently down the stream... */
     height: 100%;
-  }
-
-  #skills-card2 h1 {
-    text-align: right;
   }
 
   #skills-card2 {
