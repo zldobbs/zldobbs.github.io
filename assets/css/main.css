@@ -7,13 +7,8 @@ a:hover {
   text-decoration: none;
 }
 
-#contact-box li {
-  margin: 0;
-  color: white;
-}
-
-#contact-box .btn {
-  background-color: #FF9400;
+#contact-box {
+  margin: 0 auto;
 }
 
 .card {
@@ -29,6 +24,12 @@ a:hover {
   font-family: 'Domine', serif;
   border-style: none;
   overflow: hidden;
+}
+
+.icon-img {
+  display: inline-block;
+  max-width: 35px;
+  max-height: 35px;
 }
 
 #intro-card {
@@ -192,4 +193,9 @@ a:hover {
     padding-left: 25px;
     padding-right: 25px;
   }
+
+  /* .icon-img {
+    max-width: 50px;
+    max-height: 50px;
+  } */
 }
