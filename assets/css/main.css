@@ -107,6 +107,7 @@ a:hover {
   height: 45vh;
   border-width: 0;
   box-shadow: 0 1px 5px 2px black;
+  padding: 0;
 }
 
 .supp-icon {
@@ -218,7 +219,7 @@ a:hover {
   #intro-card h1 {
     font-size: 12vmax;
   }
-  
+
   #intro-card h2 {
     font-size: 8vmax;
   }
