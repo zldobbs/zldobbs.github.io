@@ -51,7 +51,7 @@ a:hover {
 }
 
 #profile-card {
-  background-color: #14D788;
+  background-color: rgba(0, 196, 117, 1);;
   color: white;
   border-left: 1px outset black;
   padding-left: 0;
@@ -76,11 +76,14 @@ a:hover {
 
 #skills-card1, #skills-card2 {
   color: white;
-  background-color: #F31655;
+  background-color: black;
 }
 
 #skills-card1 {
   padding-bottom: 0;
+  height: 25vh; 
+  text-align: center; 
+  background-color:black; 
 }
 
 #skills-card1 h1 {
@@ -98,7 +101,16 @@ a:hover {
 
 #skills-card2 {
   padding-top: 0;
-  font-size: 1em;
+  font-size: 2em;
+}
+
+.skillset-overlay {
+  background-color: rgba(0, 196, 117, 0.75);
+  height: 100%;
+  width: 100%;
+  padding-top: 10vh; 
+  position: absolute;
+  display: block;
 }
 
 .img-thumbnail {
@@ -136,6 +148,24 @@ a:hover {
   margin: 10% auto 10% auto;
 }
 
+#skillset1 {
+  background-image: url(../img/c_icon.png);
+}
+
+#skillset2 {
+  background-image: url(../img/web_dev_code_icon.png);
+}
+
+#skillset3 {
+  background-image: url(../img/mtnicon.png);
+}
+
+#skillset1, #skillset2, #skillset3 {
+  padding-left: 0;
+  padding-right: 0; 
+  border-left: 1px outset black;
+}
+
 .portfolio-card {
   background-color: black;
   text-align: center;
@@ -164,14 +194,15 @@ a:hover {
   height: 50%;
   margin: 0;
   padding: 0;
-  background-color: #FFAE3F;
+  background-color: white;
   width: 100%;
 }
 
 .pf-overlay-item {
   position: absolute;
   display: block;
-  background-color: rgba(255, 174, 61, 0.75);
+  /* background-color: rgba(255, 174, 61, 0.75); */
+  background-color: rgba(0, 196, 117, 0.75);
   padding-top: 10vh;
   padding-left: 5vw;
   padding-right: 5vw;
@@ -194,11 +225,13 @@ a:hover {
 
 .pf-item a:hover {
   color: white;
+  background-color: black;
 }
 
 #contact-card {
   padding-top: 20vh;
-  background-color: rgba(255, 174, 61, 0.75);
+  /* background-color: rgba(255, 174, 61, 0.75); */
+  background-color: white;
 }
 
 @media (min-width: 992px) {
@@ -229,16 +262,12 @@ a:hover {
   }
 
   #skills-card1 h1 {
-    font-size: 4vw;
-  }
-
-  #skills-card1 p {
-    font-size: 1.3vw;
+    font-size: 3.5vw;
   }
 
   #skills-card2 {
-    padding-top: 10vh;
-    padding-left: 20px;
+    padding: 0;
+    height: 75vh;
   }
 
   .skillset .img-thumbnail {
