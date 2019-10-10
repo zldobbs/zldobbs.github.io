@@ -33,16 +33,13 @@ a:hover {
   width: 100%;
   margin: 0; 
   color: white; 
-  /* padding-top: 2.5vh; 
-  padding-bottom: 2.5vh; 
-  padding-left: 2.5vw;
-  padding-right: 2.5vw;  */
+  background-color: rgb(246, 61, 114);
 }
 
 .mid-card-overlay {
   position: absolute;
   display: block;
-  background-color: rgba(78, 109, 27, 0.75);
+  background-color: rgba(246, 61, 114, 0.75);
   padding-top: 2.5vh;
   padding-bottom: 2.5vh; 
   padding-left: 2.5vw;
@@ -56,19 +53,19 @@ a:hover {
 .mid-card-img {
   padding: 0; 
   margin: 0; 
+  max-height: 33vh;
+  min-width: 100%; 
 }
 
 #mid-card-1 {
-  background-color: yellow; 
+  /* nothing to see here */
 }
 
 #mid-card-2 {
-  background-color: black; 
   border-top: 1px solid black;
 }
 
 #mid-card-3 {
-  background-color: green; 
   border-top: 1px solid black;
   height: 33.4%;
 }
