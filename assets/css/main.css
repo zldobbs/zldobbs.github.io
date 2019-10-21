@@ -135,33 +135,6 @@ a:hover {
   padding: 0;
 }
 
-#skills-card1, #skills-card2 {
-  color: white;
-  background-color: #F31655;
-}
-
-#skills-card1 {
-  padding-bottom: 0;
-}
-
-#skills-card1 h1 {
-  font-size: 6vh;
-}
-
-#skills-card1 p {
-  font-size: 2.75vh;
-}
-
-#skills-card2 h3 {
-  font-size: 1.5em;
-  text-align: center;
-}
-
-#skills-card2 {
-  padding-top: 0;
-  font-size: 1em;
-}
-
 .img-thumbnail {
   border-radius: 50%;
   width: 45vh;
@@ -174,27 +147,6 @@ a:hover {
 .supp-icon {
   margin-top: 0;
   margin-bottom: 1vh;
-}
-
-.skillset {
-  margin: 0 auto;
-  height: 100%;
-}
-
-.skillset li {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.skillset ul {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.skillset .img-thumbnail {
-  margin: 10% auto 10% auto;
 }
 
 .portfolio-card {
@@ -291,26 +243,6 @@ a:hover {
 
   #profile-card p {
     font-size: 1.5vmax;
-  }
-
-  #skills-card1 h1 {
-    font-size: 4vw;
-  }
-
-  #skills-card1 p {
-    font-size: 1.3vw;
-  }
-
-  #skills-card2 {
-    padding-top: 10vh;
-    padding-left: 20px;
-  }
-
-  .skillset .img-thumbnail {
-    width: 15vw;
-    height: 15vw;
-    margin-top: 0;
-    margin-bottom: 2.5vh;
   }
 
   .portfolio-card {
