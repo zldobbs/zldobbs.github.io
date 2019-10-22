@@ -135,6 +135,31 @@ a:hover {
   padding: 0;
 }
 
+#scroll-message-box {
+  display: none; 
+  margin: 0 auto; 
+  margin-top: 20vh; 
+  position: absolute;
+  bottom: 5vh; 
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#scroll-message-box p, #scroll-message-box img {
+  display: inline-block; 
+}
+
+#scroll-message-box p {
+  font-size: 3vmax;
+}
+
+#scroll-message-box img {
+  width: 5vh; 
+  height: 5vh; 
+}
+
 .img-thumbnail {
   border-radius: 50%;
   width: 45vh;

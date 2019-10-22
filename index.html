@@ -21,6 +21,10 @@
           <div id="intro-card" class="card">
             <h2>Hi, I'm</h2>
             <h1>Zach</h1>
+            <div id="scroll-message-box">
+              <p>scroll</p>
+              <img src="assets/img/scroll-down.gif" alt="down" />
+            </div>
           </div>
         </div>
 
@@ -183,6 +187,10 @@
     let wide = true;
     checkSize();
     $(window).resize(checkSize);
+
+    setTimeout(function() {
+      $("#scroll-message-box").fadeIn(800);
+    }, 1500);
 
     function checkSize() {
       if ($(".pf-overlay-item").css("padding-left") == "25px") {
