@@ -140,7 +140,7 @@ a:hover {
   margin: 0 auto; 
   margin-top: 20vh; 
   position: absolute;
-  bottom: 10vh; 
+  bottom: 15vh; 
   left: 0;
   right: 0;
   width: 100%;
@@ -264,6 +264,10 @@ a:hover {
 
   #intro-card h2 {
     font-size: 8vmax;
+  }
+
+  #scroll-message-box {
+    bottom: 5vh; 
   }
 
   #profile-card p {
